@@ -1,0 +1,113 @@
+@keyframes leftmove {
+  0% {
+    left: -61%;
+    opacity: 0.5;
+  }
+  100% {
+    left: 0%;
+    opacity: 1;
+  }
+}
+
+.nav-side {
+  background-color: white;
+  width: 61%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  animation: leftmove ease-out 0.5s;
+  padding: 64px 0 0 32px;
+
+  .active {
+    background-color: #f0f0f0;
+    border-radius: 5px 0 0 5px;
+  }
+
+  .top {
+    a {
+      text-decoration: none;
+      color: #333333;
+      font-size: 1.1rem;
+      font-weight: 500;
+      .login {
+        padding: 16px;
+        display: flex;
+        align-items: center;
+        img {
+          margin-right: 12px;
+        }
+        p {
+          margin: 0 0 2px 0;
+        }
+      }
+    }
+  }
+  .mid {
+    a {
+      text-decoration: none;
+      color: #333333;
+      font-size: 1.1rem;
+      font-weight: 500;
+
+      div {
+        display: flex;
+        align-items: center;
+        padding: 16px;
+        p {
+          margin: 0;
+        }
+      }
+      .home {
+        img {
+          margin-right: 8px;
+        }
+      }
+      .learning-paths {
+        img {
+          margin-right: 12px;
+          margin-left: 2px;
+        }
+      }
+      .courses {
+        img {
+          margin-left: 2px;
+          margin-right: 12px;
+        }
+      }
+      .blog {
+        img {
+          margin-right: 7px;
+        }
+      }
+    }
+  }
+  .bottom {
+    a {
+      text-decoration: none;
+      color: #333333;
+      font-size: 1.1rem;
+      font-weight: 500;
+      div {
+        display: flex;
+        align-items: center;
+        padding: 16px;
+        p {
+          margin: 0;
+        }
+      }
+    }
+    .adv {
+      img {
+        margin-left: 2px;
+        margin-right: 8px;
+      }
+    }
+    .work {
+      img {
+        margin-right: 6px;
+      }
+    }
+  }
+}

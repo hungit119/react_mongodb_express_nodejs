@@ -1,0 +1,27 @@
+@import "../../global";
+.home-tag {
+  .courses-show {
+    padding: 80px 38px 80px 0;
+    p {
+      font-size: 1rem;
+      color: #82919b;
+      span {
+        font-weight: 700;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .home-tag {
+    .courses-show {
+      padding: 80px 38px;
+      p {
+        font-size: 1rem;
+        color: #82919b;
+        span {
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

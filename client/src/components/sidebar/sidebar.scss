@@ -1,0 +1,46 @@
+@import "../../global";
+
+.side-bars {
+  display: none;
+}
+
+@media only screen and (min-width: 1280px) {
+  .side-bars {
+    background-color: #fff;
+    height: 100vh;
+    width: 96px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 12%;
+    .add-icon {
+      margin: 10px 0;
+    }
+    ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-left: 0;
+      li {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 8px 0;
+        padding: 16px 10px;
+        width: 72px;
+        border-radius: 15px;
+        &:hover {
+          background-color: #f5f5f5;
+        }
+        p {
+          font-size: 0.7rem;
+          font-weight: 600;
+          margin: 4px 0;
+        }
+      }
+    }
+  }
+}

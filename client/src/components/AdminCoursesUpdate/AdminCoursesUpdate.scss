@@ -1,0 +1,19 @@
+.spinner {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.admin-course {
+  .update-ses {
+    padding: 0 0 24px 0;
+  }
+  .lesson-wrap {
+    .lesson-item-wrap {
+      margin-top: 16px;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  }
+}

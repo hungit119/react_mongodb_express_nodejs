@@ -1,0 +1,42 @@
+@import "../../../../global";
+
+.blog-session {
+  margin: 0 12px;
+  width: 320px;
+  img {
+    border-radius: 10px;
+  }
+  .title {
+    margin: 14px 0;
+    h5 {
+      font-weight: 700;
+      margin: 0;
+      text-overflow: ellipsis;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 2;
+      overflow: hidden;
+      display: -webkit-box;
+    }
+  }
+  .info {
+    display: flex;
+    .time {
+      margin-top: 6px;
+      margin-left: 24px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: rgb(122, 122, 122);
+    }
+    .author {
+      display: flex;
+      img {
+        margin-right: 10px;
+      }
+      p {
+        color: black;
+        font-weight: 600;
+        font-size: 1.1rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.back {
+  display: flex;
+  align-items: baseline;
+  &:hover {
+    .backIcon {
+      transform: translateX(-5px);
+    }
+  }
+  .backIcon {
+    margin: 0 4px 0 0 !important;
+    transition: all ease-in 0.2s;
+  }
+
+  .text-back {
+    margin: 0;
+    padding: 0%;
+    color: #858e94;
+    font-size: 12px !important;
+    line-height: 12px;
+  }
+}

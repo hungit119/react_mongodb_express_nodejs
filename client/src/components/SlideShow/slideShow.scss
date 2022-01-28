@@ -1,0 +1,63 @@
+@import "../../global";
+@import "react-slideshow-image/dist/styles.css";
+
+.slide-wrap {
+  width: 95%;
+
+  .carousel-control-prev {
+    justify-content: start !important;
+  }
+  .carousel-control-next {
+    justify-content: flex-end !important;
+  }
+  .banner {
+    border-radius: 15px;
+  }
+  .carousel-indicators {
+    position: absolute;
+    justify-content: start;
+    bottom: -19%;
+    left: -12%;
+    .active {
+      width: 60px;
+      transition: all 0.2s ease-in;
+    }
+    button {
+      background-color: #ccc;
+      height: 8px;
+      width: 42px;
+      border-radius: 13px;
+    }
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .slide-wrap {
+    width: 92%;
+
+    .carousel-control-prev {
+      justify-content: start !important;
+    }
+    .carousel-control-next {
+      justify-content: flex-end !important;
+    }
+    .banner {
+      border-radius: 15px;
+    }
+    .carousel-indicators {
+      position: absolute;
+      justify-content: start;
+      bottom: -19%;
+      left: -12%;
+      .active {
+        width: 60px;
+        transition: all 0.2s ease-in;
+      }
+      button {
+        background-color: #ccc;
+        height: 8px;
+        width: 42px;
+        border-radius: 13px;
+      }
+    }
+  }
+}

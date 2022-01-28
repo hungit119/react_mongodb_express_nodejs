@@ -1,0 +1,96 @@
+.Login {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: blanchedalmond;
+  z-index: 2;
+  background: url("https://accounts.fullstack.edu.vn/static/media/f8_bg_auth_1366.cb1a38f30212c78aa891.png")
+    center no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .wrap-login {
+    width: 640px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .login-std {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 75%;
+      p {
+        margin: 0 0 4px 0;
+        font-size: 0.9rem;
+        font-weight: 700;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        width: 75%;
+        input {
+          padding: 10px;
+          border-radius: 50px;
+          margin-bottom: 8px;
+          border: 0.5px solid #e4e4e6;
+          background-color: #f1f1f2;
+          outline: none;
+          position: relative;
+        }
+        .std {
+          position: absolute;
+          top: 37.8%;
+          left: 22.1%;
+          padding: 10px 16px 10px 14px;
+          border-radius: 50px;
+          border: 0.5px solid #e4e4e6;
+          border-color: transparent;
+          background-color: #f1f1f2;
+          outline: none;
+        }
+        button {
+          padding: 8px;
+          background-color: #94e8f6;
+          color: white;
+          border: none;
+          border-radius: 3px;
+          font-weight: 600;
+          font-size: 1.1rem;
+        }
+      }
+      .head-login {
+        display: flex;
+        width: 75%;
+        justify-content: space-between;
+      }
+    }
+    .form-login {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .btn {
+        width: 120%;
+        padding: 6px 20px;
+        margin: 6px;
+        border-radius: 50px;
+        border: 2px solid #dce0e3;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        .btn-btn {
+          width: 100%;
+          text-align: "center";
+        }
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

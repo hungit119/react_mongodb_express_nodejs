@@ -1,0 +1,41 @@
+@import "../../../global";
+
+.blog-show {
+  width: 89%;
+  margin-bottom: 64px;
+  .header {
+    margin: 24px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    h3 {
+      font-weight: 800;
+    }
+    span {
+      color: #f05123;
+      font-size: 1rem;
+      font-weight: 700;
+      margin: 0;
+    }
+  }
+  .body {
+    display: flex;
+    margin: 0 -12px;
+    padding-bottom: 12px;
+    overflow-x: scroll;
+    &::-webkit-scrollbar {
+      height: 6px;
+      width: 100%;
+    }
+    &::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      background-color: #999999;
+      display: none;
+    }
+    &:hover {
+      &::-webkit-scrollbar-thumb {
+        display: block;
+      }
+    }
+  }
+}

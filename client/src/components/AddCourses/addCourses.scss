@@ -1,0 +1,43 @@
+.add-course-form {
+  width: 90%;
+  padding: 32px;
+  .feature {
+    position: relative;
+    .fea-input {
+      margin: 6px 0;
+    }
+    .add-fea {
+      margin: 4px 0;
+      width: 20px;
+      border: 1px solid #ccc;
+      height: 21px;
+      line-height: 18px;
+      padding: 0 4px;
+      border-radius: 3px;
+      &:hover {
+        cursor: pointer;
+        background-color: #0d6efd;
+        color: white;
+        border-color: transparent;
+        transition: all ease-in-out 0.2s;
+      }
+    }
+    .slide-fea {
+      margin: 4px 0;
+      width: 20px;
+      border: 1px solid #ccc;
+      height: 21px;
+      line-height: 18px;
+      padding: 0 4px;
+      border-radius: 3px;
+      margin-left: 4px;
+      &:hover {
+        cursor: pointer;
+        background-color: #dc3545;
+        color: white;
+        border-color: transparent;
+        transition: all ease-in-out 0.2s;
+      }
+    }
+  }
+}
